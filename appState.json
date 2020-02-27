@@ -1,0 +1,159 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe": {
+        "id": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+        "parent": null,
+        "name": "SQSDebugLambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SQSDebugLambda.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 180,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "dabac74f-1255-4b10-ba83-b5ba556c4cdd": {
+            "id": "dabac74f-1255-4b10-ba83-b5ba556c4cdd",
+            "name": "Test event",
+            "functionId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+            "event": "{\n    \"message\": \"Hello Test\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe"
+    ],
+    "currentFileId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+    "resources": {
+      "sqsudithTestQueue": {
+        "name": "sqsudithTestQueue",
+        "type": "SQS",
+        "config": {
+          "mode": 1,
+          "existing": true,
+          "name": "udith-test-queue",
+          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/udith-test-queue",
+          "selectedRegion": "us-east-1",
+          "deliveryDelay": "0",
+          "deliveryDelayUnit": "seconds",
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": "30",
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": "345600",
+          "messageRetentionPeriodUnit": "seconds",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": "0",
+          "queueARN": "arn:aws:sqs:us-east-1:318300609668:udith-test-queue"
+        }
+      },
+      "sqsKTestSQS": {
+        "name": "sqsKTestSQS",
+        "type": "SQS",
+        "config": {
+          "mode": 1,
+          "existing": true,
+          "name": "KTestSQS",
+          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/KTestSQS",
+          "selectedRegion": "us-east-1",
+          "deliveryDelay": "0",
+          "deliveryDelayUnit": "seconds",
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": "30",
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": "345600",
+          "messageRetentionPeriodUnit": "seconds",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": "0",
+          "queueARN": "arn:aws:sqs:us-east-1:318300609668:KTestSQS"
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+        "varKey": "SLAPP_DEBUGGER_ACTIVE",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+        "varKey": "SLAPP_KEY",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+        "varKey": "SLAPP_SECRET",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "df6fbb0d-85d1-4c74-8011-1525fcd7dbbe",
+        "varKey": "SLAPP_SESSION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SQSDebugLambda",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582781038605
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sqsdebuglambda",
+      "url": "https://github.com/zgma-test/sqsdebuglambda"
+    }
+  }
+}
