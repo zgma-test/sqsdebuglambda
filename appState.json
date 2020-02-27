@@ -11,15 +11,17 @@
         "isRemovable": true,
         "filePath": "SQSDebugLambda.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 24,
+          "column": 42
         },
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 180,
           "memory": 128,
-          "layers": []
+          "layers": [
+            "arn:aws:lambda:us-east-1:892904900711:layer:slappforge-debug-nodejs-1-0-0-build-01:1"
+          ]
         },
         "triggers": [],
         "testCases": {
@@ -147,7 +149,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582781038605
+    "lastSave": 1582781248199
   },
   "VCS_STATE": {
     "provider": "GitHub",

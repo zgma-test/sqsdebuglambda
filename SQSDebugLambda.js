@@ -20,3 +20,5 @@ exports.handler = async (event) => {
         throw err;
     };
 };
+
+require('slappforge-lambda-debug-proxy');
