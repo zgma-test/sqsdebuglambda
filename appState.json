@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "SQSDebugLambda.js",
         "cursor": {
-          "lineNumber": 24,
-          "column": 42
+          "lineNumber": 21,
+          "column": 6
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -149,7 +149,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582781248199
+    "lastSave": 1582781476605
   },
   "VCS_STATE": {
     "provider": "GitHub",
